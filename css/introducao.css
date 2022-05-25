@@ -35,14 +35,13 @@
 }
 /*============= RESPONSIVO =============*/
 @media (max-width: 700px) {
-  .introducao{
+  .introducao {
     padding-block: 0;
     padding-inline: 1rem;
   }
   .introducao h1 {
     font-size: 4.5rem;
     line-height: 6rem;
-    
   }
   .introducao p {
     font-size: 1.5rem;

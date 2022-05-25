@@ -29,7 +29,8 @@
   color: #000;
   max-width: 5ch;
 }
-.cursos, .idiomas {
+.cursos,
+.idiomas {
   margin-bottom: 3rem;
 }
 .formacao_extra h3 {
@@ -42,18 +43,16 @@
 }
 .cursos img,
 .idiomas img {
-
   padding-right: 0.3rem;
   max-width: 2rem;
   position: absolute;
   left: -2.4rem;
   top: -0.2rem;
-  
 }
 .formacao_extra li {
   font-size: 1.4rem;
   line-height: 1.1;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 .formacao_extra span {
   color: #8f8f8f;
@@ -62,12 +61,11 @@
   display: flex;
   justify-content: space-between;
 }
-.cursos a{
+.cursos a {
   text-decoration: none;
   color: white;
-
 }
-.cursos a:hover{
+.cursos a:hover {
   color: #8f8f8f;
 }
 
@@ -84,7 +82,7 @@
     max-width: initial;
     text-transform: capitalize;
   }
-  .formacao::after{
+  .formacao::after {
     visibility: hidden;
   }
 }
