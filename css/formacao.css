@@ -1,0 +1,76 @@
+.container_formacao {
+  background: #141414;
+}
+.formacao {
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 auto;
+  gap: 10rem;
+
+  max-width: 120rem;
+
+  color: white;
+
+  position: relative;
+}
+.formacao::after {
+  content: '';
+  display: block;
+  width: 18rem;
+  height: 14rem;
+  background: url('../img/detalhe.svg') no-repeat center;
+  position: absolute;
+  top: 47rem;
+  left: -6rem;
+  z-index: 1;
+}
+.formacao .subtitulo {
+  color: #000;
+  max-width: 5ch;
+}
+.cursos {
+  margin-bottom: 6rem;
+}
+.formacao_extra h3 {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+.cursos img,
+.idiomas img {
+  padding-right: 0.3rem;
+  max-width: 2rem;
+}
+.formacao_extra li {
+  font-size: 1.4rem;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+.formacao_extra span {
+  color: #8f8f8f;
+}
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*============= RESPONSIVO =============*/
+@media (max-width: 700px) {
+  .formacao {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+  .formacao .subtitulo {
+    color: white;
+    font-size: 3rem;
+    max-width: initial;
+    text-transform: capitalize;
+    margin-bottom: 0;
+  }
+  .formacao::after{
+    visibility: hidden;
+  }
+}

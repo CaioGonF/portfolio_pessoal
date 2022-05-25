@@ -2,12 +2,13 @@
   --font-color-principal: #141414;
   font-size: 62.5%;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Fira Sans', Arial, sans-serif;
-  margin: 0px;
   padding: 0px;
 
-  max-width: 120rem;
   margin: 0 auto;
 
   font-size: 1.6rem;
@@ -24,4 +25,12 @@ ul {
   padding: 0px;
 
   list-style: none;
+}
+
+.subtitulo {
+  font-size: 10rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
 }
