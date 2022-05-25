@@ -83,7 +83,7 @@
   .experiencia,
   .empresa {
     grid-template-columns: 1fr;
-    gap: 5rem;
+    gap: 1rem;
   }
   .experiencia .subtitulo {
     color: #141414;
