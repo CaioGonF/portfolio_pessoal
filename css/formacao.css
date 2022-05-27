@@ -41,8 +41,7 @@
   margin-bottom: 1rem;
   position: relative;
 }
-.cursos img,
-.idiomas img {
+.indentifyIcon {
   padding-right: 0.3rem;
   max-width: 2rem;
   position: absolute;
@@ -54,9 +53,39 @@
   line-height: 1.1;
   margin-bottom: 0.5rem;
 }
-.formacao_extra span {
+.formacao_extra .timeAndDate {
   color: #8f8f8f;
 }
+.informationIcon img {
+  max-width: 1rem;
+}
+.informationIcon {
+  position: relative;
+}
+
+.tooltip {
+  opacity: 0;
+  font-size: 1.3rem;
+  background-color: #8f8f8f;
+  color: rgba(243, 243, 243, 0.959);
+  text-align: left;
+  border-radius: 6px 6px 6px 0px;
+  padding: 0.5rem;
+  left: 19rem;
+  top: -4.3rem;
+  width: 18.4rem;
+  max-height: 6.1rem;
+
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.informationIcon:hover .tooltip {
+  opacity: 1;
+  transition: 0.3s;
+}
+
 .cursos li {
   display: flex;
   justify-content: space-between;
