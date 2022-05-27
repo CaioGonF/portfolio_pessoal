@@ -88,7 +88,7 @@
 .informationIcon:hover .tooltip {
   opacity: 1;
   width: 18.4rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   height: auto;
   transition: width 0s, height 0s, font-size 0s, opacity 0.3s;
 }
