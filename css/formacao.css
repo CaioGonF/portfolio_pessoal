@@ -65,7 +65,12 @@
 
 .tooltip {
   opacity: 0;
-  font-size: 1.3rem;
+  width: 0;
+  height: 0;
+  font-size: 0;
+
+
+  
   background-color: #8f8f8f;
   color: rgba(243, 243, 243, 0.959);
   text-align: left;
@@ -73,9 +78,8 @@
   padding: 0.5rem;
   left: 102%;
   top: -4.5rem;
-  width: 18.4rem;
-  max-height: 6.1rem;
 
+  max-height: 6.1rem;
 
   /* Position the tooltip */
   position: absolute;
@@ -83,7 +87,10 @@
 }
 .informationIcon:hover .tooltip {
   opacity: 1;
-  transition: 0.3s;
+  width: 18.4rem;
+  font-size: 1.2rem;
+  height: auto;
+  transition: width 0s, height 0s, font-size 0s, opacity 0.3s;
 }
 
 .cursos li {
